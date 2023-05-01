@@ -1,0 +1,291 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.banner-image {
+  background-image: url('C:\Users\Nipun Piyadigamage\Desktop\travel_zone\src\Components\P_11_01.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+#services h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #0f394c;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#services p {
+  margin: 0;
+  font-size: 15px;
+ 
+  
+  color: gray;
+  /*text-transform: uppercase;*/
+  text-align: center;
+}
+
+#services .container {
+  padding-top: 60px;
+ 
+}
+
+.services {
+  margin-top: 40px;
+}
+
+.services container {
+  width: 20px;
+}
+
+#services h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #0f394c;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#services p {
+  margin: 0;
+  font-size: 15px;
+ 
+  
+  color: gray;
+  /*text-transform: uppercase;*/
+  text-align: center;
+}
+
+
+.btn-get-started {
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 0px;
+  transition: 0.5s;
+  margin-top: 25px;
+  color: black;
+  background: transparent;
+  border: 2px solid black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-get-started:hover {
+  background: black;
+  color: white;
+}
+
+
+.nav-link {
+  margin-right: 10px;
+  color: white;
+  font-size:18px ;
+  font-weight: bolder;
+  
+}
+
+.nav-link:hover {
+  color: grey;
+  transition: 0.5;
+
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #fff;
+  padding: 0 0 30px 0;
+  color: #444444;
+  font-size: 14px;
+  background: #fff;
+
+}
+
+
+
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #1a1a1a;
+  margin-top: 80px;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: white;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: white;
+
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: white;
+  color: white;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top h3 {
+  
+  color: white;
+
+}
+
+#footer .footer-top .social-links a:hover {
+  background: black;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+#footer .copyright {
+  float: left;
+  color: #0f394c;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 13px;
+  color: #0f394c;
+}
+
+@media (max-width: 575px) {
+
+  #footer .copyright,
+  #footer .credits {
+    float: none;
+    text-align: center;
+  }
+}
